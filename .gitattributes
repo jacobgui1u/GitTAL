@@ -1,0 +1,2 @@
+Rapport/ filter=lfs diff=lfs merge=lfs -text
+Brouillon/save/interet.txt filter=lfs diff=lfs merge=lfs -text
