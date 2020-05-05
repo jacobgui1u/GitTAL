@@ -97,7 +97,7 @@ subjclass = 'PERSON'
 objclass = 'ORGANIZATION'
 window = 5
 relfilter = lambda x: (x['subjclass'] == 'PERSON' or x['subjclass'] == "ORGANIZATION"  or x['objclass']==objclass)
-
+rels = list(filter(relfilter, reldicts))
 
 pattern='''
 NP: {<DT>? <JJ>* <NN*>*} # NP
