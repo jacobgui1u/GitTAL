@@ -1,0 +1,16 @@
+Apprendre comment distinguer les mots
+-trouver les stop_words
+-trouver les occurence d'un mot dans wordnet
+  wn.synsets(mot)
+-trouver les "nyme" avec synset
+  hyponyms !!
+  killer.hypernyms()
+  killer.member_holonyms()
+  killer.root_hypernyms()
+  wn.synset('killer.n.01').lowest_common_hypernyms(wn.synset('murderer.n.01')
+
+-
+Pour reconnaitre les namedentity on utilise un regex qu'on peux ensuite detailler dans un arbre tree2conlltags
+Il s'agira de trouver le bon RegexpParser
+
+on install spacy afin d'obtenir le  fastest syntactic parser in the world.
