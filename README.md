@@ -1,7 +1,4 @@
-# GitTAL
-Le git du Tal
-
-# Nom du projet
+# Projet Ingénerie Linguistique
 
 ## Auteur
 DARROU Cédric, FIALE Amélie, JACOB Xavier, RICHEZ Guillaume
