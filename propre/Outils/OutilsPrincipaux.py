@@ -45,7 +45,7 @@ def recuperationText(url):
     close(file)
     return lsortie
 
-# récuperation du text d'un fichier en arbreXML
+# récuperation du texte d'un fichier en arbreXML
 def recuperationArbreText(url):
     # récuperation de l'arbe xml
     tree = ET.parse(url)

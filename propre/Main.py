@@ -6,7 +6,7 @@ text = outils.recuperationArbreText("./../XMLSources/List_of_serial_killers_by_c
 for sent in outils.formatage(text):
 # for sent in outils.sentTest(5):
     # formatage de la phrase sent
-    format=outils.formatage(sent)
+    format = outils.formatage(sent)
 
     # pour les phrases formatées
     for sentFormat in format:
