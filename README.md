@@ -10,6 +10,6 @@ Pour plus d'informations, nous vous invitons à consulter le fichier `sujet.pdf`
 
 ## Utilisation du code
 
-Pour exécuter le script, il suffit d'exécuter le fichier [Main.py](propre/Main.py).
+Pour exécuter le script, il suffit d'exécuter le fichier [Main.py](propre/Main.py) dans le répertoire propre.
 Ce fichier utilise des scripts annexes dans le répertoire *Outils* et à partir des librairies.
 
