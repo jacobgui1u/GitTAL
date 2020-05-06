@@ -68,8 +68,7 @@ def formatage(text):
     liststrRoot = strRoot.split('*')
     sent = ' '.join(str(e) for e in liststrRoot)
 
-
-    # suppresion des references pour ne garder que les texte
+    # suppresion des references pour ne garder que les textes
     liststrRoot = sent.split('===')
     listRes = []
     for sent in liststrRoot:
